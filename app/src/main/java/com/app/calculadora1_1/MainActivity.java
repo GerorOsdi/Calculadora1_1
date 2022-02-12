@@ -31,8 +31,12 @@ public class MainActivity extends AppCompatActivity {
         btnSuma.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Resultado = Num1 + Num2;
+                Suma();
             }
         });
+    }
+
+    public void Suma(){
+
     }
 }
